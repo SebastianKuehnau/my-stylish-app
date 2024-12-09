@@ -1,0 +1,30 @@
+@import url('./main-layout.css');
+@import url('./views/master-detail-view.css');
+@import url('./views/stylish-view.css');
+
+/**** Global Styling Definition ****/
+html {
+    /*--lumo-header-text-color: orange;*/
+    --my-stylish-color: orange;
+}
+
+h1 {
+    color: var(--my-stylish-color);
+    text-decoration: var(--my-stylish-color) underline;
+}
+
+.headline {
+    color: var(--my-stylish-color);
+    font-size: var(--lumo-font-size-xxl);
+    text-decoration: var(--my-stylish-color) underline;
+}
+
+vaadin-button {
+    font-weight: 800;
+}
+
+vaadin-button.blue-button {
+    background-color: dodgerblue;
+    color: white;
+}
+

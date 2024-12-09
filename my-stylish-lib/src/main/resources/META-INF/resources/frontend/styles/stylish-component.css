@@ -1,0 +1,14 @@
+.stylish-component {
+
+    --lumo-font-family: "Open Sans", sans-serif;
+
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 10px 5px 5px whitesmoke;
+
+    vaadin-button {
+        color: blueviolet;
+        text-decoration: underline;
+    }
+}

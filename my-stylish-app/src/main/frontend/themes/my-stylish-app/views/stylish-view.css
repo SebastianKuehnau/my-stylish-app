@@ -1,0 +1,21 @@
+/**** Local Styling Definition ****/
+.my-stylish-view {
+    vaadin-button {
+        width: 300px;
+    }
+
+    vaadin-button.orange-button {
+        background-color: orange;
+        color: white;
+    }
+
+    vaadin-button.purple-button {
+        background-color: purple;
+        color: white;
+    };
+
+    vaadin-button.purple-button::part(suffix),
+    vaadin-button.purple-button::part(prefix) {
+        color: gold;
+    }
+}
